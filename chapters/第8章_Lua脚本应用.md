@@ -34,6 +34,10 @@
 - 彩屏：`lap_logger_color.lua`
 - 黑白屏：`lap_logger_bw.lua`
 
+下载地址（GitHub）：
+- 仓库主页：`https://github.com/witon/edgetx-tutorial`
+- 脚本目录：`https://github.com/witon/edgetx-tutorial/tree/main/lua`
+
 ### 1.2 放置路径
 将脚本复制到 SD 卡目录：
 - `/SCRIPTS/TELEMETRY/`
@@ -129,9 +133,3 @@ local TRIGGER_SWITCH = "L32"
 - [ ] 已能在界面查看历史列表
 - [ ] 已完成验证
 
----
-
-### 后续扩展（下一步）
-
-调机辅助的核心思路是：
-用同一个滑动杆给左右副翼通道输入相同舵量，同时观察两个舵面的实际位置，按“中点→最大最小→曲线”顺序逐项收敛，并在 25% / 50% / 75% / 100% 输入点复测一致性。
